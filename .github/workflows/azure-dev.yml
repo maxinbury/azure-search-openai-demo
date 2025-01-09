@@ -28,6 +28,4 @@ jobs:
           az deployment group create \
             --resource-group rg_gpt_bot_lab \
             --template-file ./infra/core/test/appservice.bicep \
-            
-
-**Change:** Added --fail-on-error flag
+            --fail-on-error
